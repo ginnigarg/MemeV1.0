@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-class textFieldDelegate : NSObject, UITextFieldDelegate{
+class TextFieldDelegate : NSObject, UITextFieldDelegate{
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
-        if textField.text == "TOP" || textField.text == "Bottom"{
+        if textField.text == "TOP" || textField.text == "BOTTOM"{
             textField.text=""
         }
     }
